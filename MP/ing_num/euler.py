@@ -4,10 +4,8 @@ from scipy.integrate import odeint
 # fonction y'=y
 def f(y,t):
     return y
-
 # Condition initiale
 y0=1
-
 # descritisation de l'intervale [a,b]
 a=0
 b=10
